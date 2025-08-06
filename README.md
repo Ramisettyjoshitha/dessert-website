@@ -8,7 +8,7 @@ Each dessert card contains a picture and a button. When clicked, the list of ing
 
 ## 🔗 Live Website
 
-👉 [Click here to view the live site](https://your-username.github.io/dessert-website/)  
+👉 [Click here to view the live site](https://ramisettyjoshitha.github.io/dessert-website/)  
 
 
 ---
