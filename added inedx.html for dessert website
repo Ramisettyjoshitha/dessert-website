@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dessert</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@1.6.5/dist/flowbite.min.js"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body class="bg-amber-100" >
+<header class="bd-pink-shadow bg-pink-300 p-4 text-center rounded-xl shadow-3xl">
+    <div id="top"></div>
+   <h1 class="text-4xl font-bold "> Pick Your  Favourite Dessert!</h1>
+   <p class="">Scroll through our sweet treats and find your favourite!</p>
+</header>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+ <details class="rounded-xl shadow-md p-4 text-center hover:bg-sky-700">
+    <summary class="cursor-pointer">
+    <img src="https://theovenchef.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-11-01-at-5.39.28-PM-1-scaled-e1698841246352.jpeg" >
+    <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ...">
+  cake
+</button>
+    </summary>
+    <ul class="mt-2 text-left text-sm list-disc list-inside text-blue-50">
+        <li>Flour</li>
+  <li>Sugar</li>
+  <li>Eggs</li>
+  <li>Butter</li>
+  <li>Cocoa powder</li>
+  <li>Milk</li>
+  <li>Baking powder</li>
+    </ul>
+ </details>
+ <details class="rounded-xl shadow-md p-4 text-center hover:bg-sky-700">
+    <summary class="cursor-pointer">
+    <img src="https://tastyfry.in/wp-content/uploads/2025/05/gulab-jamun-recipe-tastyfry.in-1-1024x1024.jpeg" >
+    <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ...">
+  gulab jamun
+</button>
+    </summary>
+    <ul class="mt-2 text-left text-sm list-disc list-inside text-blue-50">
+       <li>Khoya (Mawa)</li>
+  <li>Maida (All-purpose flour)</li>
+  <li>Sugar</li>
+  <li>Cardamom powder</li>
+  <li>Baking soda</li>
+  <li>Milk (for kneading)</li>
+  <li>Ghee or oil (for frying)</li>
+  <li>Rose water (optional)</li> 
+    </ul>
+ </details>
+ <details class="rounded-xl shadow-md p-4 text-center hover:bg-sky-700">
+    <summary class="cursor-pointer">
+    <img src="https://5.imimg.com/data5/EO/XI/MY-38256129/ice-cream-500x500.jpg" >
+    <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ...">
+  ice cream
+</button>
+    </summary>
+    <ul class="mt-2 text-left text-sm list-disc list-inside text-blue-50">
+        <li>Milk</li>
+  <li>Heavy cream</li>
+  <li>Sugar</li>
+  <li>Vanilla extract</li>
+  <li>Egg yolks (optional for custard base)</li>
+  <li>Flavoring or fruit (optional)</li>
+  
+    </ul>
+ </details>
+ <details class="rounded-xl shadow-md p-4 text-center hover:bg-sky-700">
+    <summary class="cursor-pointer">
+    <img src="https://utthamasweets.com/wp-content/uploads/2022/01/Kismiss-Kalakhand.png" >
+    <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ...">
+  kalakhand
+</button>
+    </summary>
+    <ul class="mt-2 text-left text-sm list-disc list-inside text-blue-50">
+         <li>Paneer (Cottage cheese)</li>
+  <li>Condensed milk</li>
+  <li>Sugar</li>
+  <li>Cardamom powder</li>
+  <li>Saffron strands (optional)</li>
+  <li>Chopped dry fruits (cashew, pistachio)</li>
+  <li>Ghee (for greasing)</li>
+    </ul>
+ </details>
+</div>
+
+   <a href="#top" class="bg-pink-400 rounded-full text-sm font-bold  fixed bottom-5 right-5 px-2 py-2 hover:bg-pink-500 shadow-md"> ↑ Top</a>
+<style>
+     html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+</body>
+
+</html>
+
